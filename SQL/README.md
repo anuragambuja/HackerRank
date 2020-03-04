@@ -58,4 +58,19 @@ Population Density Difference : https://www.hackerrank.com/challenges/population
 
 The Blunder : https://www.hackerrank.com/challenges/the-blunder/problem
 
+Top Earners : https://www.hackerrank.com/challenges/earnings-of-employees/problem
+
+Weather Observation Station 2 : https://www.hackerrank.com/challenges/weather-observation-station-2/problem
+
+Weather Observation Station 13 : https://www.hackerrank.com/challenges/weather-observation-station-13/problem
+
+Weather Observation Station 14 : https://www.hackerrank.com/challenges/weather-observation-station-14/problem
+
+Weather Observation Station 15 : https://www.hackerrank.com/challenges/weather-observation-station-15/problem
+
+Weather Observation Station 16 : https://www.hackerrank.com/challenges/weather-observation-station-16/problem
+
+Weather Observation Station 17 : https://www.hackerrank.com/challenges/weather-observation-station-17/problem
+
+Weather Observation Station 18 : https://www.hackerrank.com/challenges/weather-observation-station-18/problem
 
