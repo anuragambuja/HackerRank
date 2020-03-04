@@ -56,4 +56,6 @@ Japan Population : https://www.hackerrank.com/challenges/japan-population/proble
 
 Population Density Difference : https://www.hackerrank.com/challenges/population-density-difference/problem
 
+The Blunder : https://www.hackerrank.com/challenges/the-blunder/problem
+
 
