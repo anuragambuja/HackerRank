@@ -78,5 +78,10 @@ Revising Aggregations - The Count Function : https://www.hackerrank.com/challeng
 
 Asian Population : https://www.hackerrank.com/challenges/asian-population/problem
 
+African Cities : https://www.hackerrank.com/challenges/african-cities/problem
 
+Average Population of Each Continent : https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
 
+Draw The Triangle 1 : https://www.hackerrank.com/challenges/draw-the-triangle-1/problem
+
+Draw The Triangle 2 : https://www.hackerrank.com/challenges/draw-the-triangle-2/problem
