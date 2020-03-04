@@ -74,3 +74,9 @@ Weather Observation Station 17 : https://www.hackerrank.com/challenges/weather-o
 
 Weather Observation Station 18 : https://www.hackerrank.com/challenges/weather-observation-station-18/problem
 
+Revising Aggregations - The Count Function : https://www.hackerrank.com/challenges/revising-aggregations-the-count-function/problem
+
+Asian Population : https://www.hackerrank.com/challenges/asian-population/problem
+
+
+
