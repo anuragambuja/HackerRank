@@ -46,5 +46,14 @@ Employee Salaries : https://www.hackerrank.com/challenges/salary-of-employees/pr
 
 Type of Triangle : https://www.hackerrank.com/challenges/what-type-of-triangle/problem
 
+Revising Aggregations - The Sum Function : https://www.hackerrank.com/challenges/revising-aggregations-sum/problem
+
+Revising Aggregations - Averages : https://www.hackerrank.com/challenges/revising-aggregations-the-average-function/problem
+
+Average Population : https://www.hackerrank.com/challenges/average-population/problem
+
+Japan Population : https://www.hackerrank.com/challenges/japan-population/problem
+
+Population Density Difference : https://www.hackerrank.com/challenges/population-density-difference/problem
 
 
