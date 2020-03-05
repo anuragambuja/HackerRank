@@ -92,6 +92,6 @@ Draw The Triangle 2 : https://www.hackerrank.com/challenges/draw-the-triangle-2/
 
 Weather Observation Station 20 : https://www.hackerrank.com/challenges/weather-observation-station-20/problem
 
-
+Occupations : https://www.hackerrank.com/challenges/occupations/problem
 
 
