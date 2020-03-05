@@ -74,6 +74,8 @@ Weather Observation Station 17 : https://www.hackerrank.com/challenges/weather-o
 
 Weather Observation Station 18 : https://www.hackerrank.com/challenges/weather-observation-station-18/problem
 
+Weather Observation Station 19 : https://www.hackerrank.com/challenges/weather-observation-station-19/problem
+
 Revising Aggregations - The Count Function : https://www.hackerrank.com/challenges/revising-aggregations-the-count-function/problem
 
 Asian Population : https://www.hackerrank.com/challenges/asian-population/problem
@@ -82,6 +84,14 @@ African Cities : https://www.hackerrank.com/challenges/african-cities/problem
 
 Average Population of Each Continent : https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
 
+The PADS : https://www.hackerrank.com/challenges/the-pads/problem
+
 Draw The Triangle 1 : https://www.hackerrank.com/challenges/draw-the-triangle-1/problem
 
 Draw The Triangle 2 : https://www.hackerrank.com/challenges/draw-the-triangle-2/problem
+
+Weather Observation Station 20 : https://www.hackerrank.com/challenges/weather-observation-station-20/problem
+
+
+
+
