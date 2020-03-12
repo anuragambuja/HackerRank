@@ -33,23 +33,13 @@ n = int(input())
 for i in range(n):
     print(i*i)
 
-# 6. Write a function
-# https://www.hackerrank.com/challenges/write-a-function/problem
-def is_leap(year):
-    leap = False
-    if (year%4 == 0 and year%100 != 0) or (year%400 == 0):
-        leap = True
-    return leap
-year = int(input())
-print(is_leap(year))
-
-# 7. Print Function
+# 6. Print Function
 # https://www.hackerrank.com/challenges/python-print/problem
 n = int(input())
 for i in range(1,n+1):
     print(i,sep='',end='')
 
-# 8. List Comprehensions
+# 7. List Comprehensions
 # https://www.hackerrank.com/challenges/list-comprehensions/problem
 x = int(input())
 y = int(input())
@@ -57,13 +47,13 @@ z = int(input())
 n = int(input())
 print([[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if i+j+k != n])
 
-# 9. Find the Runner-Up Score!
+# 8. Find the Runner-Up Score!
 # https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
 n = int(input())
 arr = map(int, input().split())
 print(sorted(set(arr)).pop(-2))
 
-# 10. Nested Lists
+# 9. Nested Lists
 # https://www.hackerrank.com/challenges/nested-list/problem
 stud = list()
 for _ in range(int(input())):
@@ -74,5 +64,5 @@ secmin = sorted(set([x[1] for x in stud])).pop(1)
 for n in sorted([x[0] for x in stud if x[1] == secmin]):
     print (n)
     
-# 11. 
+# 10. 
     
