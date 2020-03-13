@@ -74,3 +74,33 @@ for _ in range(n):
     student_marks[name] = scores
 query_name = input()
 print("{0:.2f}".format(sum(student_marks[query_name])/len(student_marks[query_name])))
+
+# 11. Lists
+# https://www.hackerrank.com/challenges/python-lists/problem
+N = int(input())
+ls = list()
+for _ in range(N):
+    val = list(input().split())
+    if val[0] == 'insert':
+        ls.insert(int(val[1]), int(val[2]))
+    elif val[0] == 'print':
+        print(ls)
+    elif val[0] == 'remove':
+        ls.remove(int(val[1]))
+    elif val[0] == 'append':
+        ls.append(int(val[1]))
+    elif val[0] == 'pop':
+        ls.pop()
+    elif val[0] == 'reverse':
+        ls.reverse()
+    else:
+        ls.sort()
+
+# 12. Tuples
+# https://www.hackerrank.com/challenges/python-tuples/problem
+n = int(input())
+integer_list = tuple(map(int, input().split()))
+print(hash(integer_list))
+
+# 13. 
+
