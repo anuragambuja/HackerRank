@@ -10,6 +10,7 @@ EASY:
 7. https://www.hackerrank.com/challenges/list-comprehensions/problem
 8. https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
 9. https://www.hackerrank.com/challenges/nested-list/problem
+10. https://www.hackerrank.com/challenges/finding-the-percentage/problem
 
 MEDIUM:
 1. https://www.hackerrank.com/challenges/write-a-function/problem
