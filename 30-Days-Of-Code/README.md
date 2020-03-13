@@ -1,7 +1,7 @@
 Day 0: Hello, World.
 https://www.hackerrank.com/challenges/30-hello-world/problem
 
-Day 1: Data Types    
+Day 1: Data Types 
 https://www.hackerrank.com/challenges/30-data-types/problem
 
 Day 2: Operators
