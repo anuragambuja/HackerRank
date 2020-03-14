@@ -28,3 +28,17 @@ Sample Output
 2 3 4 1
 
 """
+# sol 1:
+
+#!/bin/python3
+if __name__ == '__main__':
+    n = int(input())
+
+    arr = input().rstrip().split()
+    print(' '.join(arr[::-1]))
+
+# Sol 2:
+n = int(input().strip())
+print(*(input().split()[::-1]))
+
+
