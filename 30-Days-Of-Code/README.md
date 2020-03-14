@@ -34,6 +34,10 @@ https://www.hackerrank.com/challenges/30-binary-numbers/problem
 Day 11: 2D Arrays
 https://www.hackerrank.com/challenges/30-2d-arrays/problem
 
+Day 12: Inheritance
+https://www.hackerrank.com/challenges/30-inheritance/problem
+
+
 
 Day 18: Queues and Stacks
 https://www.hackerrank.com/challenges/30-queues-stacks/problem
