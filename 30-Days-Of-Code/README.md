@@ -22,9 +22,24 @@ https://www.hackerrank.com/challenges/30-review-loop/problem
 Day 7: Arrays
 https://www.hackerrank.com/challenges/30-arrays/problem
 
+Day 8: Dictionaries and Maps
+https://www.hackerrank.com/challenges/30-dictionaries-and-maps/problem
+
+Day 9: Recursion 3
+https://www.hackerrank.com/challenges/30-recursion/problem
+
+Day 10: Binary Numbers
+https://www.hackerrank.com/challenges/30-binary-numbers/problem
+
+
 
 
 Day 18: Queues and Stacks
 https://www.hackerrank.com/challenges/30-queues-stacks/problem
+
+
+
+
+
 
 
