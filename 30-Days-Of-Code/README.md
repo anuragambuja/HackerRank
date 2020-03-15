@@ -46,9 +46,11 @@ https://www.hackerrank.com/challenges/30-scope/problem
 Day 15: Linked List
 https://www.hackerrank.com/challenges/30-linked-list/problem
 
+Day 16: Exceptions - String to Integer
+https://www.hackerrank.com/challenges/30-exceptions-string-to-integer/problem
 
-
-
+Day 17: More Exceptions
+https://www.hackerrank.com/challenges/30-more-exceptions/problem
 
 Day 18: Queues and Stacks
 https://www.hackerrank.com/challenges/30-queues-stacks/problem
