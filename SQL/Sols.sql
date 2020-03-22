@@ -97,12 +97,38 @@ group by hacker_id) s, hackers h
 where (s.hacker_id = h.hacker_id) and (s.tot > 0)
 order by s.tot desc, s.hacker_id;
 
--- 
+--  Placements  https://www.hackerrank.com/challenges/placements/problem
 
+select name
+from (
+select st.name, st.sal, st.fid, pt.salary fsal
+from (select s.name name, p.salary sal, f.friend_id fid
+      from students s, packages p, friends f 
+      where s.id = p.id and s.id=f.id
+     ) st, packages pt
+where st.fid = pt.id
+    )
+where fsal > sal 
+order by fsal;
+     
+--  Symmetric Pairs  https://www.hackerrank.com/challenges/symmetric-pairs/problem
 
+select a.x, a.y
+from 
+(select x, y, row_number() over (order by x) rn from functions) a, 
+(select x, y, row_number() over (order by x) rn from functions) b
+where a.x=b.y and a.y=b.x and a.rn < b.rn
+order by a.x;
 
+-- SQL Project Planning   https://www.hackerrank.com/challenges/sql-projects/problem
 
-
+SELECT start_date, MIN(end_date)
+FROM 
+    (SELECT start_date FROM PROJECTS WHERE start_date NOT IN (SELECT end_date FROM PROJECTS)) a,
+    (SELECT end_date FROM PROJECTS WHERE end_date NOT IN (SELECT start_date FROM PROJECTS)) b
+where start_date < end_date
+GROUP BY start_date
+ORDER BY to_date(start_date) - to_date(MIN(end_date)) desc, start_date;
 
 
 
