@@ -1,3 +1,10 @@
-Basics of Sets and Relations #1  https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-1/problem
-Basics of Sets and Relations #2  https://www.hackerrank.com/challenges/basics-of-sets-and-relational-algebra-2/problem
+Databases: https://www.hackerrank.com/domains/databases
 
+
+Difficulty Level:
+
+Easy:  https://github.com/anuragambuja/HackerRank/blob/master/Databases/Easy.sql
+
+Medium:  https://github.com/anuragambuja/HackerRank/blob/master/Databases/Medium.sql
+
+Hard: https://github.com/anuragambuja/HackerRank/blob/master/Databases/Hard.sql
