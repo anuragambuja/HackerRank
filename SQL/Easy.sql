@@ -128,8 +128,70 @@ select max(population) - min(population) from city;
 
 select salary*months, count(1) from employee where salary*months in (select max(salary*months) m_earn from employee) group by salary*months;
 
+--30. Weather Observation Station 2  https://www.hackerrank.com/challenges/weather-observation-station-2/problem
 
+select round(sum(LAT_N),2), round(sum(LONG_W),2) from station;
 
+--31. Weather_Observation_Station_13  https://www.hackerrank.com/challenges/weather-observation-station-13/problem
+
+select round(sum(LAT_N),4) from station where LAT_N between 38.7880 and 137.2345;
+
+--32. Weather_Observation_Station_14  https://www.hackerrank.com/challenges/weather-observation-station-14/problem
+
+select round(max(LAT_N),4) from station where LAT_N < 137.2345;
+
+--33. Weather_Observation_Station_15  https://www.hackerrank.com/challenges/weather-observation-station-15/problem
+
+select round(LONG_W,4) from station where LAT_N in (select max(LAT_N) from station where LAT_N < 137.2345);
+
+--34. Weather_Observation_Station_16 https://www.hackerrank.com/challenges/weather-observation-station-16/problem
+
+select round(min(LAT_N), 4) from station where LAT_N > 38.7780;
+
+--35. Weather_Observation_Station_17 https://www.hackerrank.com/challenges/weather-observation-station-17/problem
+
+select round(LONG_W,4) from station where LAT_N = (select min(LAT_N) from station where LAT_N > 38.7780);
+
+--36. African_Cities https://www.hackerrank.com/challenges/african-cities/problem
+
+select name from city where CountryCode in (select code from country where lower(continent) = 'africa');
+
+--37. Asian_Population  https://www.hackerrank.com/challenges/asian-population/problem
+
+select sum(population) from city where countrycode in (select code from country where lower(continent) = 'asia');
+
+--38. Average Population_of_Each_Continent  https://www.hackerrank.com/challenges/average-population-of-each-continent/problem
+
+select c.Continent, floor(avg(ci.population))
+from country c, city ci
+where c.code=ci.CountryCode
+group by c.continent;
+
+--39. Draw_The_Triangle_1   https://www.hackerrank.com/challenges/draw-the-triangle-1/problem
+
+set serveroutput on;
+declare
+x varchar(60);
+begin
+    for i in reverse 1..20 loop
+      select rpad('*',i*2-1,' *') into x from dual;
+      dbms_output.put_line(x);
+    end loop;
+end;
+/
+
+--40. Draw_The_Triangle_2  https://www.hackerrank.com/challenges/draw-the-triangle-2/problem
+
+set serveroutput on;
+declare
+x varchar(60);
+begin
+    for i in 1..20 loop
+      select rpad('*',i*2-1,' *') into x from dual;
+      dbms_output.put_line(x);
+    end loop;
+end;
+/
 
 
 
