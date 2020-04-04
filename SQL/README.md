@@ -1,7 +1,7 @@
 
-All Solutions are Oracle based.
+All Solutions are Oracle based.So, 
 
-
+set serveroutput on;
 
 
 Revising the Select Query I : https://www.hackerrank.com/challenges/revising-the-select-query/problem
