@@ -60,19 +60,25 @@ CREATE INDEX index_name</p> <p>ON table_name(column1, column2);</p>
 -- 20. Database Normalization #4  https://www.hackerrank.com/challenges/database-normalization-4/problem
 10
 
--- 21. 
+-- 21. Querying XML Datastores with XPath - 1  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-1/problem
+puts doc.elements.each("collection/movie/@title")
 
+-- 22. Querying XML Datastores with XPath - 2  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-1-1/problem
+puts doc.elements.each("collection/movie/popularity/text()")
 
+-- 23. Querying XML Datastores with XPath - 3  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-3/problem
+puts doc.elements.each("collection/movie[popularity < 8]/format/text()")
+ 
+-- 24. Querying XML Datastores with XPath - 4  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-4/problem
+puts doc.elements["collection/movie[@title='Trigun']/popularity/text()"]
 
+-- 25. Querying XML Datastores with XPath - 5  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-1-4/problem
+puts doc.elements["collection/movie[@title='Transformers']/@shelf"]
 
+-- 26. Querying XML Datastores with XPath - 6  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-6/problem
+puts doc.elements.each("/collection/movie[contains(description,'bit')]/@title")
 
-
-
-
-
-
-
-
-
-
+-- 27. Querying XML Datastores with XPath - 7  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-7/problem
+puts XPath.match(doc,"sum(collection/movie/popularity) div count(collection/movie/popularity)")
+puts XPath.match(doc,"sum(//popularity) div count(//popularity)")
 
