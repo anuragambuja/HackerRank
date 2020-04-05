@@ -22,3 +22,16 @@ bookname
 puts doc.elements.each("string-length(collection/movie[2]/description/text())")
 puts XPath.match(doc,"string-length(collection/movie[2]/description)")
 
+-- 6. Querying XML Datastores with XPath - 10   https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-10/problem
+puts doc.elements.each("collection/movie[position() > last() -2 ]/@title")
+
+-- 7. Querying XML Datastores with XPath - 11  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-11/problem
+puts doc.elements.each("collection/movie[position() mod 2 = 1 ]/@title")
+
+-- 8. Database Normalization #5  https://www.hackerrank.com/challenges/database-normalization-5/problem
+
+
+-- 9. Database Normalization #6  https://www.hackerrank.com/challenges/database-normalization-6/problem 
+
+
+
