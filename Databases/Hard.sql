@@ -63,4 +63,14 @@ def reducer(key, vectors):
 -- 11. Querying XML Datastores with XPath - 9  https://www.hackerrank.com/challenges/querying-xml-datastores-with-xpath-9/problem
 puts doc.elements.each("collection/movie[@shelf='B'][2]/@title")
 
--- 12. 
+-- 12. Database Normalization #3 https://www.hackerrank.com/challenges/database-normalization-3
+3                       
+                            
+-- 13. Database Normalization #5  https://www.hackerrank.com/challenges/database-normalization-5/problem
+3
+                            
+-- 14. Database Normalization #9  https://www.hackerrank.com/challenges/database-normalization-9/problem
+2
+                            
+                            
+                            
