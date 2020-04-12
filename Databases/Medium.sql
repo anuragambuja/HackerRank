@@ -29,9 +29,18 @@ puts doc.elements.each("collection/movie[position() > last() -2 ]/@title")
 puts doc.elements.each("collection/movie[position() mod 2 = 1 ]/@title")
 
 -- 8. Database Normalization #5  https://www.hackerrank.com/challenges/database-normalization-5/problem
+3
 
+-- 9. Database Normalization #6  https://www.hackerrank.com/challenges/database-normalization-6/problem
+2
 
--- 9. Database Normalization #6  https://www.hackerrank.com/challenges/database-normalization-6/problem 
+-- 10. Database Normalization #7  https://www.hackerrank.com/challenges/database-normalization-7/problem
+3.5
 
+-- 11. Database Normalization #8  https://www.hackerrank.com/challenges/database-normalization-8/problem
+3
 
+-- 12. Database Normalization #10  https://www.hackerrank.com/challenges/database-normalization-10/problem
+6
 
+ 
