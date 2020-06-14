@@ -1,9 +1,7 @@
 
-# HackerRank
+# [HackerRank](https://www.hackerrank.com/)
 
-https://www.hackerrank.com/
-
-## [SQL] (https://github.com/anuragambuja/HackerRank/tree/master/SQL)
+## [SQL](https://github.com/anuragambuja/HackerRank/tree/master/SQL)
 
 
 
