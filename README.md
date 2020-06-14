@@ -1,4 +1,4 @@
 
-** HackerRabk**
+**HackerRank**
 
 https://www.hackerrank.com/
