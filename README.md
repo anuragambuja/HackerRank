@@ -1,6 +1,8 @@
 
 # [HackerRank](https://www.hackerrank.com/)
 
+*Solutions to Hackerrank*
+
 - ## [SQL](https://github.com/anuragambuja/HackerRank/tree/master/SQL)
 
 - ## [Python](https://github.com/anuragambuja/HackerRank/tree/master/Python)
